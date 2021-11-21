@@ -1,0 +1,108 @@
+header a
+{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+header a:hover
+{
+    opacity: 0.7;
+}
+
+header a h1
+{
+    font-size: 24px;
+}
+
+.logo_site
+{
+    align-items: center;
+    display: flex; 
+    
+}
+.logo_site img
+{
+    height: 40px;
+}
+.logo_nome
+{
+    font-size: 24px;
+    letter-spacing: 4px;
+    margin-left: 5px;
+}
+
+nav
+{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; /*alinhamento verticar */
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #2AE026;
+    height: 8vh;
+}
+.nav_list
+{
+    list-style: none;
+    display: flex;
+}
+.nav_list a
+{
+    font-weight: bold;
+}
+.nav_list li
+{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile_menu
+{
+    cursor: pointer;
+    display: none;
+
+}
+.mobile_menu div
+{
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+
+
+.nav_list.active
+{
+    transform: translateX(0);
+} 
+
+@keyframes navLinkFade
+{
+    from
+    {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to
+    {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.mobile_menu.active .line1
+{
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile_menu.active .line2
+{
+    opacity: 0;
+}
+
+.mobile_menu.active .line3
+{
+    transform: rotate(45deg) translate(-5px, -7px);
+}

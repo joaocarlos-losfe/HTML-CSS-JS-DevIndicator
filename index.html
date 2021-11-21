@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevIndicator</title>
+    <meta name="author" content="João Carlos && Vinicius Lacerda">
+    <meta name="copyright" content="© 2021 DevIndicator"/>
+    <meta name="description" content="O DevIndicator foi pensado para situar a busca de informações onde promovemos a  indicação de sites, livros, vídeos, artigos, projetos e dicas com o olhar voltado para programadores ou estudantes e profissionais da área de tecnologia.">
+    <meta name="keywords" content="desenvolvimento, tecnologia, site de indicação de conteúdo, apredisado, estudantes">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/header_menu.css">
+    <link rel="stylesheet" href="./css/responsive_layout.css">
+    <link rel="stylesheet" href="./css/cards.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="logo_site">
+                <img src="./img/logo.svg">
+                <a class="logo_nome" href="/"><h1>DevIndicator</h1></a>
+            </div>
+            
+            <div class="mobile_menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav_list">
+                <li><a href="/">home</a></li>
+                <li><a href="/">galeria</a></li>
+                <li><a href="/">contato</a></li>
+                <li><a href="/">login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="./js/mobile_nav_bar.js"></script>
+
+    <main>
+
+        <div class="sections_subtitles">
+            <h2>Recentes</h2>
+            <label>Ultima atualização: 17/09/2021 11:55</label>
+        </div>
+
+        
+        <div class="cards">
+            <a class="card_link" href="https://si.dcx.ufpb.br/wp-content/uploads/2017/08/Arquitetura-de-Micro-Servic%CC%A7os-uma-Comparac%CC%A7a%CC%83o-com-Sistemas-Monoli%CC%81ticos.pdf" target="_blank"">
+                <div class="card">
+                    <h2 class="tipo_artigo">Artigo</h2>
+                    <h1>Arquitetura de Micro Serviços</h1>
+                    <p>Este artigo tem como objetivo comparar aplicações desenvolvidas em diferentes arquiteturas de software (monolíticas e micro serviços) através de experimentos</p>
+                </div>
+            </a>
+
+            <a class="card_link" href="https://github.com/backend-br/opensource-br" target="_blank"">
+                <div class="card">
+                    <h2 class="tipo_projeto">Projeto</h2>
+                    <h1>Projetos Open-Source Brasileiros para você contribuir!</h1>
+                    <p>Espaço para a divulgação de projetos brasileiros.</p>
+                </div>
+            </a>
+
+            <a class="card_link" href="https://www.youtube.com/watch?v=9GdesxWtOgs&t=2754s&ab_channel=FabioAkita" target="_blank"">
+                <div class="card">
+                    <h2 class="tipo_livro">Livro</h2>
+                    <h1>[Anuncio] Web Design Para Desenvolvedores !</h1>
+                    <p>Quer fazer com que suas aplicações web tenham um visual um pouco melhor, mas não tem um designer profissional na equipe? Este livro pode ajudar.</p>
+                </div>
+            </a>
+
+            <a class="card_link" href="https://www.youtube.com/watch?v=9GdesxWtOgs&t=2754s&ab_channel=FabioAkita" target="_blank"">
+                <div class="card">
+                    <h2 class="tipo_video">Video</h2>
+                    <h1>Árvores: O Começo de TUDO | Estruturas de Dados e Algoritmos</h1>
+                    <p>Este é o final da minha Trilogia de Estruturas de Dados e Algoritmos e finalmente vou conseguir falar sobre o mais importante na matéria: árvores! Vamos de BSTs a AVLs</p>
+                </div>
+            </a>
+
+            <a class="card_link" href="https://www.flaticon.com/" target="_blank"">
+                <div class="card">
+                    <h2 class="tipo_site">Site</h2>
+                    <h1>Acesse +6.0M ícones e adesivos vetoriais</h1>
+                    <p>Baixe ícones e adesivos gratuitos para seus projetos. Recursos feitos por e para designers. +3.000 ícones baseados em SVG e fonte web-ótimos baseados em vetores para aplicativos web, iOS e Android</p>
+                </div>
+            </a>
+
+            <a class="card_link" href="https://www.youtube.com/watch?v=8V0l-Ds7VXY&t=1618s&ab_channel=Wanderson" target="_blank"">
+                <div class="card">
+                    <h2 class="tipo_video">Video</h2>
+                    <h1>Criar Um Layout Com Python Usando Qt Designer/PyQt5</h1>
+                    <p>Neste tutorial vamos aprender o passo a passo de como criamos um layout com uma interface moderna para o Python usando a ferramenta Qt Designer e o framework PyQt5.</p>
+                </div>
+            </a>
+        </div>
+
+    </main>
+
+    <section>
+        <main>
+            <div class="sections_subtitle_main">
+                <h2>Projetos indicados</h2>
+                <label>
+                    filtro
+                    <select class="filter_type">
+                        <option>todos</option>
+                        <option>artigo</option>
+                        <option>livro</option>
+                        <option>video</option>
+                        <option>site</option>
+                    </select>
+                </label>
+
+                <div class="search_group">
+                    <input placeholder="Digite aqui para pesquisar">
+                    <img src="./img/loupe.png">
+                </div>
+
+            </div>
+
+            <p class="info_title">
+                Pesquise por pelo tipo de conteúdo que deseja ! 
+                Você também pode aplicar um filtro de pesquisa para determinar
+                que tipo de conteúdo deseja pesquisar.
+
+            </p>
+            
+            <div class="cards">
+                
+                <a class="card_link" href="https://www.youtube.com/watch?v=9GdesxWtOgs&t=2754s&ab_channel=FabioAkita" target="_blank"">
+                    <div class="card">
+                        <h2 class="tipo_video">Video</h2>
+                        <h1>Árvores: O Começo de TUDO | Estruturas de Dados e Algoritmos</h1>
+                        <p>Este é o final da minha Trilogia de Estruturas de Dados e Algoritmos e finalmente vou conseguir falar sobre o mais importante na matéria: árvores! Vamos de BSTs a AVLs</p>
+                    </div>
+                </a>
+                
+                <a class="card_link" href="https://si.dcx.ufpb.br/wp-content/uploads/2017/08/Arquitetura-de-Micro-Servic%CC%A7os-uma-Comparac%CC%A7a%CC%83o-com-Sistemas-Monoli%CC%81ticos.pdf" target="_blank"">
+                    <div class="card">
+                        <h2 class="tipo_artigo">Artigo</h2>
+                        <h1>Arquitetura de Micro Serviços</h1>
+                        <p>Este artigo tem como objetivo comparar aplicações desenvolvidas em diferentes arquiteturas de software (monolíticas e micro serviços) através de experimentos</p>
+                    </div>
+                </a>
+    
+                <a class="card_link" href="https://www.youtube.com/watch?v=9GdesxWtOgs&t=2754s&ab_channel=FabioAkita" target="_blank"">
+                    <div class="card">
+                        <h2 class="tipo_livro">Livro</h2>
+                        <h1>[Anuncio] Web Design Para Desenvolvedores !</h1>
+                        <p>Quer fazer com que suas aplicações web tenham um visual um pouco melhor, mas não tem um designer profissional na equipe? Este livro pode ajudar.</p>
+                    </div>
+                </a>
+    
+    
+                <a class="card_link" href="https://www.flaticon.com/" target="_blank"">
+                    <div class="card">
+                        <h2 class="tipo_site">Site</h2>
+                        <h1>Acesse +6.0M ícones e adesivos vetoriais</h1>
+                        <p>Baixe ícones e adesivos gratuitos para seus projetos. Recursos feitos por e para designers. +3.000 ícones baseados em SVG e fonte web-ótimos baseados em vetores para aplicativos web, iOS e Android</p>
+                    </div>
+                </a>
+    
+                <a class="card_link" href="https://www.youtube.com/watch?v=8V0l-Ds7VXY&t=1618s&ab_channel=Wanderson" target="_blank"">
+                    <div class="card">
+                        <h2 class="tipo_video">Video</h2>
+                        <h1>Criar Um Layout Com Python Usando Qt Designer/PyQt5</h1>
+                        <p>Neste tutorial vamos aprender o passo a passo de como criamos um layout com uma interface moderna para o Python usando a ferramenta Qt Designer e o framework PyQt5.</p>
+                    </div>
+                </a>
+
+                <a class="card_link" href="https://github.com/backend-br/opensource-br" target="_blank"">
+                    <div class="card">
+                        <h2 class="tipo_projeto">Projeto</h2>
+                        <h1>Projetos Open-Source Brasileiros para você contribuir!</h1>
+                        <p>Espaço para a divulgação de projetos brasileiros.</p>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="controls">
+                <img class="back_next_btn" src="./img/left-arrowhead_c.png">
+                <p>1 de 300</p>
+                <img class="back_next_btn" src="./img/left-arrowhead.png">
+            </div>
+
+        </main>
+
+    </section>
+
+    <div class="site_mensage">
+        <div class="logo">
+            <img src="/img/logo.svg">
+            <h1>DevIndicator</h1>
+        </div>
+        <h3>O DevIndicator foi pensado para situar a busca de informações onde 
+            promovemos a  indicação de sites, livros, vídeos, artigos, 
+            projetos e dicas com o olhar voltado para programadores ou estudantes e 
+            profissionais da área de tecnologia.</h3>
+    </div>
+    
+    <footer>
+        <div class="footer_">
+
+            <div class="social">
+                <h2>Social</h2>
+                <div class="social_logo">
+                    <img src="./img/facebook.png">
+                    <img src="./img/instagram-4-64.png">
+                    <img src="./img/twiter.png">
+                </div>
+            </div>
+
+            <div class="developers">
+                <h2>DevIndicator © 2021</h2>
+               
+                <ul>
+                    <li>João Carlos</li>
+                    <li>Vinicius Lacerda</li>
+                </ul>
+                
+            </div>
+
+            <div class="sobre">
+                <h2>Sobre nós</h2>
+                <ul>
+                    <li>devinidicator@gmail.com</li>
+                    <li>(99)9999-9999</li>
+                    <li>Picos-Pi</li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    
+</body>
+</html>

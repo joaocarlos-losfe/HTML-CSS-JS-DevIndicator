@@ -1,0 +1,112 @@
+.cards
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card
+{
+    background-color: #F0F1F3;
+    padding: 15px;
+
+    min-width: 230px;
+    max-width: 230px;
+
+    min-height: 230px;
+    max-width: 230;
+
+    border-radius: 10px;
+
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.card:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0px 5px #2AE026;;
+    
+}
+
+.card_link
+{
+    text-decoration: none;
+    color: black;
+}
+
+.card h1
+{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.card p
+{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+}
+
+
+
+.tipo_artigo
+{
+    background-color: #23F3B3;
+    padding: 2px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 50px;
+    max-width: 80px;
+}
+
+.tipo_livro
+{
+    background-color: #23B3F3;
+    padding: 2px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 50px;
+    max-width: 80px;
+}
+
+.tipo_video
+{
+    background-color: #F3232A;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 50px;
+    max-width: 80px;
+}
+
+.tipo_site
+{
+    background-color: #8D8FA4;
+    padding: 2px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 50px;
+    max-width: 80px;
+}
+
+.tipo_projeto
+{
+    background-color: #23F3F3;
+    padding: 2px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 50px;
+    max-width: 80px;
+}
+
+.card h2
+{
+    font-size: 20px;
+}

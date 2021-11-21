@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main
+{
+    
+    display: flex; 
+    flex-direction: column;
+    /*background-color: grey;*/
+    justify-content: space-between;
+    max-width: 920px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 1em auto; 
+}
+
+.sections_subtitles
+{
+    display: flex; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center; /*alinhamento verticar */
+}
+
+
+section
+{
+    background-color: #343A40;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sections_subtitle_main
+{
+    display: flex; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    align-items: center; /*alinhamento verticar */
+}
+
+
+.sections_subtitle_main h2
+{
+    color: white;
+}
+
+.sections_subtitle_main label
+{
+    color: #fff;
+}
+
+.filter_type
+{
+    border-radius: 10px;
+    background-color: #707070;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    color: white;
+    border: none
+}
+
+.search_group
+{
+    align-items: center;
+    display: flex; 
+}
+
+.sections_subtitle_main img
+{
+    
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #2AE026;
+    cursor: pointer;
+}
+
+.sections_subtitle_main img:hover
+{
+    background-color: #11c00e;
+}
+
+.sections_subtitle_main input
+{
+    height: 20px;
+    width: 300px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.info_title
+{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.controls
+{
+    display: flex;
+    align-items: center; 
+    margin: 1em auto; 
+}
+
+.controls .back_next_btn
+{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.controls p
+{
+    color: #fff;
+    font-weight: bold;
+}
+
+.controls .back_next_btn:hover
+{
+    height: 50px;
+    width: 50px;
+}
+
+.site_mensage
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.site_mensage img
+{
+    height: 100px;
+    width: 100px;
+}
