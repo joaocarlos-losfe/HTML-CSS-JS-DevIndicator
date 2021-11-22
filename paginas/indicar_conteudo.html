@@ -27,8 +27,8 @@
             <ul class="nav_list">
                 <li><a href="galeria.html">galeria</a></li>
                 <li><a href="contato.html">contato</a></li>
-                <li><a href="indicar_conteudo.html">indicar conteúdo</a></li>
-                <li><a href="#">login</a></li>
+                <li><a href="#">indicar conteúdo</a></li>
+                <li><a href="login.html">login</a></li>
             </ul>
         </nav>
     </header>
@@ -36,32 +36,58 @@
 
     <main>
         <div class="sections_subtitles">
-            <h2>Login</h2>
+            <h2>Indicação de conteúdo</h2>
         </div>
 
         <div class="login_area">
             <div class="input_area">
                 <div class="label_info">
+                    <img src="../img/link (1).png" alt="user_email_figure">
+                    <h3>Copie e cole a url do site, artigo, livro, <br>projeto ou video que deseja indicar*</h3>
+                </div>
+                <input type="text">
+            </div>
+
+            <div class="input_area">
+                <div class="label_info">
                     <img src="../img/user.png" alt="user_email_figure">
-                    <h3>Email</h3>
+                    <h3>Autor/Empresa do conteúdo*</h3>
                 </div>
                 <input type="email">
             </div>
 
             <div class="input_area">
                 <div class="label_info">
-                    <img src="../img/privacy.png" alt="user_email_figure">
-                    <h3>Senha</h3>
+                    <img src="../img/content-marketing.png" alt="user_email_figure">
+                    <h3>Tipo de contúdo*</h3>
                 </div>
-                <input type="password">
+                
+                <select class="filter_type">
+                    <option>Artigo</option>
+                    <option>Livro</option>
+                    <option>Video</option>
+                    <option>Site</option>
+                </select>
+
             </div>
 
-            <button>Entrar</button>
-
-            <div class="acount">
-                <label >Não é usuario? <a href="criar_conta.html">Criar conta</a> </label>
-                <label >Esqueceu seu Login? <a href="#">Recuperar</a> </label>
+            <div class="input_area">
+                <div class="label_info">
+                    <img src="../img/tag.png" alt="user_email_figure">
+                    <h3>Tags</h3>
+                </div>
+                <input type="email">
             </div>
+            
+            <div class="input_area">
+                <div class="label_info">
+                    <img src="../img/chat.png" alt="user_email_figure">
+                    <h3>Mensagem</h3>
+                </div>
+                <textarea></textarea>
+            </div>
+
+            <button>Submeter</button>
 
         </div>
 

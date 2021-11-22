@@ -28,7 +28,7 @@
                 <li><a href="galeria.html">galeria</a></li>
                 <li><a href="contato.html">contato</a></li>
                 <li><a href="indicar_conteudo.html">indicar conteúdo</a></li>
-                <li><a href="#">login</a></li>
+                <li><a href="login.html">login</a></li>
             </ul>
         </nav>
     </header>
@@ -36,32 +36,48 @@
 
     <main>
         <div class="sections_subtitles">
-            <h2>Login</h2>
+            <h2>Contato</h2>
         </div>
 
         <div class="login_area">
             <div class="input_area">
                 <div class="label_info">
                     <img src="../img/user.png" alt="user_email_figure">
-                    <h3>Email</h3>
+                    <h3>Seu nome completo*</h3>
+                </div>
+                <input type="text">
+            </div>
+
+            <div class="input_area">
+                <div class="label_info">
+                    <img src="../img/envelope.png" alt="user_email_figure">
+                    <h3>Email*</h3>
                 </div>
                 <input type="email">
             </div>
 
             <div class="input_area">
                 <div class="label_info">
-                    <img src="../img/privacy.png" alt="user_email_figure">
-                    <h3>Senha</h3>
+                    <img src="../img/content-marketing.png" alt="user_email_figure">
+                    <h3>Assunto</h3>
                 </div>
-                <input type="password">
+                <select class="filter_type">
+                    <option>Sobre o site</option>
+                    <option>Sugestão</option>
+                    <option>Critica</option>
+                    <option>Duvidas</option>
+                </select>
             </div>
 
-            <button>Entrar</button>
-
-            <div class="acount">
-                <label >Não é usuario? <a href="criar_conta.html">Criar conta</a> </label>
-                <label >Esqueceu seu Login? <a href="#">Recuperar</a> </label>
+            <div class="input_area">
+                <div class="label_info">
+                    <img src="../img/chat.png" alt="user_email_figure">
+                    <h3>Mensagem</h3>
+                </div>
+                <textarea></textarea>
             </div>
+
+            <button>Enviar Mensagem</button>
 
         </div>
 
