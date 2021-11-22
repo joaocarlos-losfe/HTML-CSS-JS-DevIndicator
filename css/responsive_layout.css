@@ -4,6 +4,7 @@
     {
         overflow-x: hidden;
         min-width: 100vw;
+        box-sizing: border-box;
     }
 
     .nav_list
