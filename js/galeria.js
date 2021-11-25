@@ -1,10 +1,10 @@
 let time = 2000,
     currentImageIndex = 0,
-    images = document
-                .querySelectorAll("#slider img")
+    images = document.querySelectorAll("#slider img")
     max = images.length;
 
-function nextImage() {
+function nextImage() 
+{
 
     images[currentImageIndex]
         .classList.remove("selected")
